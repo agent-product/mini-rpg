@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -49,6 +50,22 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    
+    // ViewModel and Lifecycle
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    
+    // DataStore for persistence
+    implementation(libs.androidx.datastore.preferences)
+    
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.android)
+    
+    // Serialization
+    implementation(libs.kotlinx.serialization.json)
+    
+    // DateTime
+    implementation(libs.kotlinx.datetime)
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

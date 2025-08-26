@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">mini-rpg</string>
+    <string name="app_name">Mini RPG</string>
+    
+    <!-- Game UI Strings -->
+    <string name="hero_stats">Hero Stats</string>
+    <string name="daily_battle">Daily Battle</string>
+    <string name="battle_log">Battle Log</string>
+    <string name="fight_button">Fight!</string>
+    <string name="fighting">Fighting...</string>
+    
+    <!-- Player Stats -->
+    <string name="level_format">Level: %d</string>
+    <string name="gold_format">Gold: %d 🪙</string>
+    <string name="health">Health</string>
+    <string name="experience">Experience</string>
+    <string name="total_xp_format">Total XP: %d | Next Level: %d XP</string>
+    
+    <!-- Battle Messages -->
+    <string name="monster_awaits">A monster awaits! Ready to fight?</string>
+    <string name="already_fought">You\'ve already fought today!\nCome back tomorrow for another battle.</string>
+    <string name="no_battles_yet">No battles yet. Fight your first monster!</string>
+    
+    <!-- Dialog Messages -->
+    <string name="victory">Victory!</string>
+    <string name="critical_victory">Critical Victory!</string>
+    <string name="rewards">Rewards:</string>
+    <string name="awesome">Awesome!</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="your_hero">Your Hero</string>
+    
+    <!-- Battle Log -->
+    <string name="level_up_format">LEVEL UP! %d → %d</string>
+    <string name="rewards_format">+%d XP, +%d Gold</string>
+    
+    <!-- Time Format -->
+    <string name="just_now">Just now</string>
+    <string name="minutes_ago_format">%dm ago</string>
+    <string name="hours_ago_format">%dh ago</string>
+    <string name="days_ago_format">%dd ago</string>
+    <string name="recently">Recently</string>
 </resources>
